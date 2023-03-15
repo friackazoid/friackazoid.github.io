@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  friackazoid
 
 # Build settings
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: minima
 plugins:
   - jekyll-feed
 
