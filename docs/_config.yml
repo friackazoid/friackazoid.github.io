@@ -18,23 +18,40 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: My Blog
+title: "Alina Stepina"
+name: Alina Stepina
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://friackazoid.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+description: My Blog
+baseurl: "docs" # the subpath of your site, e.g. /blog
+url: "https://friackazoid.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
-github_username:  friackazoid
+github_username: "friackazoid"
 
-# Build settings
-#theme: alembic-jekyll-theme
-remote_theme: daviddarnes/alembic@main
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+# Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+   style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -44,12 +61,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+   - Gemfile
+   - Gemfile.lock
+   - LICENSE 
+   - README.md
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
