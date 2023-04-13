@@ -18,12 +18,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Alina's blog # the main title
+title: "Alina's blog" # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Yet Another Blog About C++ and Robots! Join to explore the fascinating world of robotics and C++ language. Let's dive in and unleash the potential of robots with C++!
+  "Yet Another Blog About C++ and Robots! Join to explore the fascinating world of robotics and C++ language. Let's dive in and unleash the potential of robots with C++!"
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
