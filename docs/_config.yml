@@ -18,34 +18,34 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Alina's blog # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Yet Another Blog About C++ and Robots! Join to explore the fascinating world of robotics and C++ language. Let's dive in and unleash the potential of robots with C++!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: friackazoid # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username:  # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Alina Stepina
+  email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    #- https://twitter.com/username # change to your twitter homepage
+    - https://github.com/friackazoid # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/alinastepina/
 
 google_site_verification: # fill in to your verification string
 
@@ -77,10 +77,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+#img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "https://avatars.githubusercontent.com/u/146274?v=4"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
