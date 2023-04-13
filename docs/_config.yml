@@ -19,19 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Alina Stepina"
-name: Alina Stepina
-email: your-email@example.com
-description: My Blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://friackazoid.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username: "friackazoid"
+description: "Yet Another Blog About C++ and Robots! Join to explore the fascinating world of robotics and C++ language. Let's dive in and unleash the potential of robots with C++!"
+title_image: "https://avatars.githubusercontent.com/u/146274?s=400&u=e0393c477ef079c7a77c1e12a65c1e89291c1880&v=4"
+github_repository: https://github.com/friackazoid
+post_limit: 5
 
+twitter_username:
+github_username:  friackazoid
+linkedin_link: https://www.linkedin.com/in/barry-revzin-3a582917/
+stackoverflow_link:
+xing_link:
+facebook_link:
 
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -42,11 +41,6 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
-
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
