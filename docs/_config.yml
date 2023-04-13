@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   "Yet Another Blog About C++ and Robots! Join to explore the fascinating world of robotics and C++ language. Let's dive in and unleash the potential of robots with C++!"
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://friackazoid.github.io/"
 
 github:
   username: friackazoid # change to your github username
@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-#img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://avatars.githubusercontent.com/u/146274?v=4"
