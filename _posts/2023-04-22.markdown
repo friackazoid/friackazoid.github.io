@@ -1,2 +1,9 @@
+---
+layout: post
+title:  "New test post"
+date:   2023-04-21 22:22:53 +0200
+categories: jekyll update
+---
+
 ## New test post
 here is new test post
